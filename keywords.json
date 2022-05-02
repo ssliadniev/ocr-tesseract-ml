@@ -1,0 +1,40 @@
+{
+    "general_keys": {
+        "^(Page.*|Sida.*)": "pass",
+        "^Faktura$": "pass",
+        "^Fakturanr": "invoice.invoice_id",
+        "^Fakturadatum": "invoice.issue_date",
+        "^OCR$": "invoice.payment_id",
+        "^Kundnr": "invoice.customer_id",
+        "^Er referens": "invoice.buyer_reference",
+        "^V.r reference": "invoice.supplier_reference",
+        "^Betalningsvillkor": "invoice.payment_terms",
+        "^F.rfallodatum": "invoice.due_date",
+        "^Dr.jsm.lsr.nta": "pass",
+        "^S.te": "pass",
+        "^IBAN": "pass",
+        "^Telefax.*": "pass",
+        "^Godk.nd f.r F-skatt": "pass",
+        "^Bankgiro": "pass",
+        "^Exkl. moms": "invoice.legal_monetary_total.line_extension_amount",
+        "^Frakt$": "invoice.allowance_charges.amount",
+        "^Moms$": "invoice.tax_totals.tax_percent",
+        "^Totalt": "invoice.legal_monetary_total.payable_amount",
+        "^ATT BETALA": "invoice.document_currency_code"
+    },
+    "header_keys": {
+        "Ben.mning": "item.name",
+        "Lev ant": "invoiced_quantity",
+        "Enhet": "price.unit",
+        ".-pris": "price.amount",
+        "Summa": "line_extension_amount"
+    },
+    "items_borders_keys": {
+        "start": [
+            "Ben.mning"
+        ],
+        "end": [
+            "Exkl. moms"
+        ]
+    }
+}

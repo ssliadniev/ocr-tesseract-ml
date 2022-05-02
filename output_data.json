@@ -1,0 +1,33 @@
+{
+    "invoice.issue_date": "2020-11-11",
+    "invoice.invoice_id": "12333",
+    "invoice.payment_id": "1233378",
+    "invoice.customer_id": "15",
+    "invoice.buyer_reference": "Harriet Carlsson",
+    "invoice.payment_terms": "30 dagar",
+    "invoice.due_date": "2020-12-11",
+    "invoice.legal_monetary_total.line_extension_amount": "300 000,00",
+    "invoice.tax_totals.tax_percent": "75 000,00",
+    "invoice.legal_monetary_total.payable_amount": "375 000,00",
+    "invoice.document_currency_code": "SEK 375 000,00",
+    "invoice.invoice_lines": [
+        {
+            "invoiced_quantity": "95,00",
+            "item.name": "1. Utveckling av Styrdokument:",
+            "line_extension_amount": "118 750,00",
+            "price.amount": "1 250,00"
+        },
+        {
+            "invoiced_quantity": "73,00",
+            "item.name": "2. Framtagande av underlag och strategi för KDI-",
+            "line_extension_amount": "91 250,00",
+            "price.amount": "1 250,00"
+        },
+        {
+            "invoiced_quantity": "72,00",
+            "item.name": "3.Framtagande av strategisk projektbeskrivning",
+            "line_extension_amount": "90 000,00",
+            "price.amount": "1 250,00"
+        }
+    ]
+}

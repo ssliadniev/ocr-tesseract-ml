@@ -1,1 +1,1 @@
-# ocr-tesseract-project
+# ocr-tesseract-ml
