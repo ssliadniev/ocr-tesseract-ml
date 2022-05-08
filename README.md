@@ -1,5 +1,5 @@
 # ocr-tesseract-ml
-
+The system provides analysis of OCR invoices
 
 ### Getting started
 
