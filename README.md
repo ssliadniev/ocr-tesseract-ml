@@ -1,5 +1,8 @@
 # ocr-tesseract-ml
+
 The system provides analysis of OCR invoices
+
+-----
 
 ### Getting started
 
@@ -13,3 +16,8 @@ Building an image:
     cd ../ocr-tesseract-ml
     docker build -t ocr-tesseract-ml .
  
+-----
+
+### Prerequisites
+
+![python](https://img.shields.io/badge/python-3.8-brightgreen)
